@@ -8,7 +8,7 @@ public class playerMovement : MonoBehaviour
     PlayerControl controls;
     float direction = 0;
 
-    public float speed = 400;
+    public float speed = 10000;
 
     public Rigidbody2D playerRB;
 
