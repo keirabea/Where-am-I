@@ -8,9 +8,11 @@ public class playerMovement : MonoBehaviour
     PlayerControl controls;
     float direction = 0;
 
-    public float speed = 10000;
+    public float speed = 400;
+    bool isFacingRight = true;
 
     public Rigidbody2D playerRB;
+    public Animator animator;
 
     //initialising controls
 
@@ -31,6 +33,16 @@ public class playerMovement : MonoBehaviour
     void Update()
     {
         playerRB.velocity = new Vector2(direction * speed * Time.deltaTime, playerRB.velocity.y);
-        
+        animator.SetFloat("speed", Mathf.Abs(direction));
+        //checks which direction the character is moving and flips animation
+        if (isFacingRight && direction < 0 || !isFacingRight && direction >0)
+            Flip();
+    }
+
+    //using the x axis to flip the character animation when the left arrow key is pressed
+    void Flip()
+    {
+        isFacingRight = !isFacingRight;
+        transform.localScale = new Vector2(transform.localScale.x * -1, transform.localScale.y);
     }
 }
