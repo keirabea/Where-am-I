@@ -10,7 +10,7 @@ public class characterSelect : MonoBehaviour
     public int selectedCharacter;
 
     //private void Awake()
-    public void Awake()
+    private void Awake()
     {
          selectedCharacter = PlayerPrefs.GetInt("SelectedCharacter", 0);
          foreach (GameObject player in skins)
