@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 43696744761880356}
   - component: {fileID: 43696744761880359}
+  - component: {fileID: 253925845639010080}
   m_Layer: 0
   m_Name: selectedSkin
   m_TagString: GameController
@@ -84,3 +85,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &253925845639010080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43696744761880357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 356d32ceb2c2eaa42850d4e015fade51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedCharacter: 0

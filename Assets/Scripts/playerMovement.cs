@@ -5,7 +5,8 @@ using UnityEngine;
 public class playerMovement : MonoBehaviour
 {
 
-    PlayerControl controls;
+    //PlayerControl controls;
+    private PlayerControl controls;
     float direction = 0;
 
     public float speed = 400;
@@ -25,6 +26,7 @@ public class playerMovement : MonoBehaviour
         {
             direction = ctx.ReadValue<float>();
         };
+
     }
 
 
