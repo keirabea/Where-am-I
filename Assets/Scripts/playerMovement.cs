@@ -15,6 +15,7 @@ public class playerMovement : MonoBehaviour
     public Rigidbody2D playerRB;
     public Animator animator;
 
+
     //initialising controls
 
     private void Awake()

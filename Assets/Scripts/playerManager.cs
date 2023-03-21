@@ -11,7 +11,7 @@ public class playerManager : MonoBehaviour
     private void Awake()
     {
         characterIndex = PlayerPrefs.GetInt("SelectedCharacter", 0);
-        Instantiate(playerPrefabs[characterIndex]);
+        GameObject player = Instantiate(playerPrefabs[characterIndex]);
     }
 
     // Update is called once per frame
