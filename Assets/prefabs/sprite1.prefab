@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 1084521285233043295}
   - component: {fileID: 1084521285233043292}
   - component: {fileID: 1084521285233043293}
-  - component: {fileID: 1084521285233043291}
-  - component: {fileID: 1084521285233043290}
+  - component: {fileID: 2351362987715218505}
+  - component: {fileID: 3868765868709717604}
   m_Layer: 0
   m_Name: sprite1
   m_TagString: Untagged
@@ -125,7 +125,7 @@ CapsuleCollider2D:
   m_Offset: {x: -0.19892597, y: 0}
   m_Size: {x: 2.215036, y: 5.046539}
   m_Direction: 0
---- !u!114 &1084521285233043291
+--- !u!114 &2351362987715218505
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -137,10 +137,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 635fcfc453b8d764ba0a33a16451f981, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30000
+  speed: 400
   playerRB: {fileID: 1084521285233043292}
-  animator: {fileID: 1084521285233043290}
---- !u!95 &1084521285233043290
+  animator: {fileID: 3868765868709717604}
+--- !u!95 &3868765868709717604
 Animator:
   serializedVersion: 4
   m_ObjectHideFlags: 0

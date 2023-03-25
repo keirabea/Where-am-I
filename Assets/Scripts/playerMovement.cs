@@ -20,6 +20,7 @@ public class playerMovement : MonoBehaviour
 
     private void Awake()
     {
+        Debug.Log("playerMoverment Awake");
         controls = new PlayerControl();
         controls.Enable();
         //checking for 1d axis with the action mat
@@ -35,6 +36,7 @@ public class playerMovement : MonoBehaviour
     // update is to control the speed of the player and edit their x and y position
     void Update()
     {
+        //Debug.Log("playerMovement Update");
         playerRB.velocity = new Vector2(direction * speed * Time.deltaTime, playerRB.velocity.y);
         animator.SetFloat("speed", Mathf.Abs(direction));
         //checks which direction the character is moving and flips animation

@@ -753,8 +753,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 750163554}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12.893, y: 19.1399, z: 0}
-  m_LocalScale: {x: 77.16052, y: 75.277214, z: 1}
+  m_LocalPosition: {x: 3.8371, y: 19.1399, z: 0}
+  m_LocalScale: {x: 95.973114, y: 75.277214, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1268552404}
@@ -865,7 +865,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 228.54375
+  orthographic size: 219.07094
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1324,8 +1324,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 440.2, y: 208}
-  m_SizeDelta: {x: 982.5203, y: 450.4804}
+  m_AnchoredPosition: {x: 459.88257, y: 213.90475}
+  m_SizeDelta: {x: 1171.4727, y: 462.2899}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1297681600
 MonoBehaviour:
@@ -1821,7 +1821,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65a0f9ba0ea95404bbb712c28b96b83e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Skins:
+  skins:
   - {fileID: 1109266750}
   - {fileID: 1189510364}
   - {fileID: 967982505}
